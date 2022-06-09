@@ -1,0 +1,84 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrapper {
+    border-radius: 0.6rem;
+    width: 88%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.card {
+    padding: 3rem;
+}
+
+.first-card {
+    border-radius: 0.6rem 0.6rem 0 0;
+    background-color: $bright-orange;
+}
+
+.second-card {
+    background-color: $dark-cyan;
+}
+
+.third-card {
+    border-radius: 0 0 0.6rem 0.6rem;
+    background-color: $very-dark-cyan;
+}
+
+.title {
+    font-size: 1.25rem;
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $very-light-gray;
+    margin-bottom: 1.7rem;
+}
+
+.text {
+    line-height: 1.53rem;
+    margin-bottom: 1.8rem;
+    color: $transparent-white;
+}
+
+.icon {
+    margin-bottom: 1.9rem;
+}
+
+.button {
+    font-weight: 700;
+    padding: 0.79rem;
+    border-radius: 2rem;
+    width: 62.5%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid $very-light-gray;
+    background-color: $very-light-gray;
+}
+
+.button:hover {
+    background-color: inherit ;
+    color: white;
+    cursor: pointer;
+}
+
+.first-button {
+    color: $bright-orange;
+}
+
+.second-button {
+    color: $dark-cyan;
+}
+
+.third-button {
+    color: $very-dark-cyan;
+}
+
+.attribution {
+    display : none;
+}

@@ -1,0 +1,48 @@
+@media screen and (min-width : 376px) {
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icon {
+        margin-bottom: 2rem;
+    }
+
+    .card-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 64%;
+        margin-top: 2.5rem;
+    }
+
+    .card {
+        padding: 3rem;
+    }
+
+    .first-card {
+        border-radius: 0.5rem 0 0 0.5rem;
+    }
+
+  
+    .third-card {
+        border-radius: 0 0.5rem 0.5rem 0;
+    }
+
+
+    .title {
+        margin-bottom: 1.6rem;
+    }
+
+    .text {
+        line-height: 1.58rem;
+        margin-bottom: 5rem;
+    }
+
+    .button {
+        width: 69%;
+        padding: 0.8rem;
+    }
+
+}

@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-wrapper {
+  border-radius: 0.6rem;
+  width: 88%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+.card {
+  padding: 3rem;
+}
+
+.first-card {
+  border-radius: 0.6rem 0.6rem 0 0;
+  background-color: #e38826;
+}
+
+.second-card {
+  background-color: #006970;
+}
+
+.third-card {
+  border-radius: 0 0 0.6rem 0.6rem;
+  background-color: #004241;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-family: 'Big Shoulders Display', cursive;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #f2f2f2;
+  margin-bottom: 1.7rem;
+}
+
+.text {
+  line-height: 1.53rem;
+  margin-bottom: 1.8rem;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.icon {
+  margin-bottom: 1.9rem;
+}
+
+.button {
+  font-weight: 700;
+  padding: 0.79rem;
+  border-radius: 2rem;
+  width: 62.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #f2f2f2;
+  background-color: #f2f2f2;
+}
+
+.button:hover {
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+.first-button {
+  color: #e38826;
+}
+
+.second-button {
+  color: #006970;
+}
+
+.third-button {
+  color: #004241;
+}
+
+.attribution {
+  display: none;
+}
+
+@media screen and (min-width: 376px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .icon {
+    margin-bottom: 2rem;
+  }
+  .card-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    width: 64%;
+    margin-top: 2.5rem;
+  }
+  .card {
+    padding: 3rem;
+  }
+  .first-card {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+  .third-card {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+  .title {
+    margin-bottom: 1.6rem;
+  }
+  .text {
+    line-height: 1.58rem;
+    margin-bottom: 5rem;
+  }
+  .button {
+    width: 69%;
+    padding: 0.8rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
