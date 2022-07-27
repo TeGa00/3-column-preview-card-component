@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/TeGa00/3-column-preview-card-component
-- Live Site URL: https://tega00.github.io/3-column-preview-card-component/
+- Solution URL: https://github.com/thiagogrn/FM-N-3-column-preview-card-component
+- Live Site URL: https://thiagogrn.github.io/FM-N-3-column-preview-card-component/
 
 ## My process
 
